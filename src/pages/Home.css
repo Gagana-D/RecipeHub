@@ -1,0 +1,104 @@
+/* Home.css */
+.home-container {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Carousel Styles */
+#carouselExampleIndicators {
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+.slide-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.slide-caption h1 {
+  font-size: 3rem;
+}
+
+/* Content Section Styles */
+.content-section {
+  padding: 20px;
+}
+
+.recommended-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.recipe-card {
+  width: 32%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+
+.recipe-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.recipe-time {
+  font-size: 0.9rem;
+  color: #777;
+  display: flex;
+  align-items: center;
+}
+
+.clock-icon {
+  margin-right: 5px;
+}
+
+.see-more-button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto 15px auto;
+  text-decoration: none;
+}
+
+.recipe-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 10px;
+}
+
+.like-icon,
+.heart-icon {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.heart-icon.liked {
+  color: #e91e63;
+}

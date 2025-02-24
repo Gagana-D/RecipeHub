@@ -1,0 +1,6 @@
+/* reset.css */
+
+*, ::after, ::before {
+
+       padding: 0;
+  }
