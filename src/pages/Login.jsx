@@ -10,7 +10,7 @@ const Login = ({ setIsLoggedIn }) => {
 
   const handleLogin = async () => {
     try {
-      const res = await axios.post('http://localhost:5000/login', {
+      const res = await axios.post('https://backend2-zqer.onrender.com/login', {
         email,
         password,
       });

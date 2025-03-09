@@ -12,7 +12,7 @@ const Register = ({ setIsLoggedIn }) => {
 
   const handleRegister = async () => {
     try {
-      await axios.post('http://localhost:5000/register', {
+      await axios.post('https://backend2-zqer.onrender.com/register', {
         username,
         email,
         password,
